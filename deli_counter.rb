@@ -1,7 +1,7 @@
 # Write your code here.
 
 katz_deli = []
-couter_in_line = 0
+$couter_in_line = 0
 
 def line(arr)
   rtn_str = "The line is currently: "
@@ -19,9 +19,9 @@ end
 
 
 def take_a_number(arr)
-  counter_in_line += 1
-  arr << counter_in_line
-  puts "Welcome. You are number " + counter_in_line + "."
+  $counter_in_line += 1
+  arr << $counter_in_line
+  puts "Welcome. You are number " + $counter_in_line + "."
   return arr
 end
 
