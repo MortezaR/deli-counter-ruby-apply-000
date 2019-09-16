@@ -19,7 +19,7 @@ end
 
 def take_a_number(arr, name)
   arr << name
-  puts "Welcome, #{name}. You are number " + arr.length.to_s + " in line."
+  puts "Welcome, #{name}. You are number " + arr.length + " in line."
   return arr
 end
 
