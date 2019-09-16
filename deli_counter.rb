@@ -20,8 +20,8 @@ end
 
 def take_a_number(arr)
   counter_in_line += 1
-  arr << name
-  puts "Welcome, #{name}. You are number " + arr.length + " in line."
+  arr << counter_in_line
+  puts "Welcome. You are number " + counter_in_line + "."
   return arr
 end
 
