@@ -31,6 +31,5 @@ def now_serving(arr)
     arr.shift()
   else
     puts "There is nobody waiting to be served!"
-    return []
   end
 end
