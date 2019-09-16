@@ -14,7 +14,6 @@ def line(arr)
     rtn_str = "The line is currently empty."
   end
   puts rtn_str
-  return rtn_str
 end
 
 
